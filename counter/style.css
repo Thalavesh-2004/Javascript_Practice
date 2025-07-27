@@ -1,0 +1,33 @@
+body{
+text-align: center;
+
+}
+#counterdisplay{
+    font-size: 8em;
+}
+button{
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right: 10px;
+    background-color: rgb(151, 134, 209);
+    color:white;
+    height:50px;
+    font-size: 1.5em;
+    
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px rgb(176, 175, 175);
+    transition: margin 0.2s,padding 0.2s;
+}
+button:hover{
+    margin-left:12px;
+    margin-right:12px;
+    padding-left:18px;
+    padding-right: 18px;
+}
+
+button:active{
+    box-shadow: 0 0 0 white;
+    background-color: rgb(101, 101, 193);;
+}

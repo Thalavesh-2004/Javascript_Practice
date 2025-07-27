@@ -1,0 +1,46 @@
+.container{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(245, 244, 244);
+    text-align:center;
+    width:300px;
+    height:400px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 0px 10px grey;
+}
+body{
+    background-color: rgb(235, 230, 230);
+    justify-items: center;
+}
+#title{
+    
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(142, 79, 202);
+}
+
+.label{
+    font-size: 1.5em;
+   font-weight: 600;
+}
+.label:hover{
+    cursor:pointer;
+}
+ [name="choice"]:hover{
+    cursor:pointer;
+}
+button{
+    height:40px;
+    width:100px;
+    background-color: rgb(120, 49, 172);
+    color:white;
+    font-weight: 600px;
+    font-size: 18px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color:rgb(151, 88, 196) ;
+}
